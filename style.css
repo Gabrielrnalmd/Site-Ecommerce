@@ -1,0 +1,265 @@
+@charset "UTF-8";
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "poppins", sans-serif
+}
+
+body {
+    min-height: 100vh;
+    background: fixed;
+    background-size: cover ;
+    background-position: center;
+    background-color: #3D97F2;
+
+}
+
+.header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 30px 100px;
+background:transparent;
+display: flex;
+justify-content: space-between;
+align-items: flex;
+z-index: 100;
+background-color:#225589;
+}
+
+
+
+.logo {
+font-size: 38px;
+color: #ffffff;
+text-decoration: underline;
+font-weight: 700;
+}
+
+.navbar a { 
+ position: relative;
+font-size: 18px;
+color:white;
+font-weight: 500;
+text-decoration: none;
+margin-left: 40px;
+}            
+
+.navbar a::before {
+content: '';
+position: absolute;
+top: 100%;
+left: 0;
+width: 0;
+height: 2px;
+background: white;
+transition: .3s;
+}
+
+.navbar a:hover::before {
+width: 100%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin-top: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 1px;
+    background-color: rgb(230, 230, 230);
+    color: 202020;
+    width: 350px;
+    height: 530px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.card>h1 {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.card>p {
+    font-size: 17px;
+    padding: 20px 20px;
+}
+
+.btn {
+    font-size: 19px;
+    padding: 10px 50px;
+    border: 10px;
+    background-color: #202020;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.5s background;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+    transition: 0.5s background;
+    background-color: #333333;
+}
+
+
+
+.card>img {
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.parte {
+      display: flex;
+    justify-content: center;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #225589;
+    height: 400px;
+}
+
+.secoes {
+    max-width: 1700px;
+    margin: auto;
+}
+
+.informacoes {
+    display: flex;
+}
+
+.info1, .info2, .info3 {
+    padding-top: 50px ;
+    padding-right: 140px;
+    padding-left: 40px;
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+    color: rgb(199, 199, 199);
+}
+
+.info1>h1, .info2>h1, .info3>h1 {
+    color: rgb(252, 252, 252);
+}
+
+.divisao{
+    margin-top: 60px;
+}
+
+.empresa {
+    margin-top: 40px;
+    font-family: 'poppins', sans-serif;
+    color: #fff;
+    padding-left: 50px;
+    font-size: 32px;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    padding-right: 80px;
+    display: flex;
+}
+
+.links>li {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    margin-top: 70px;
+    margin-right: 40px;
+}
+
+.link1, .link2, .link3 {
+    margin-right: 20px;
+    font-size: 17px;
+    color: #fff;
+    transition: 1s text;
+}
+
+.link1:hover, .link:hover, .link3:hover {
+    color: rgb(188, 188, 188);
+    transition: 1s;
+}
+
+.creditos {
+  font-family: 'poppins', sans-serif;
+  color: #fff;
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+
+main>h1 {
+    background-color: #3D97F2;
+    color:  #00000096;
+    margin: auto;
+    padding-top: 170px;
+    text-align: center;
+    text-decoration: overline;
+    font-size: 34px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cards {
+    margin-top: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 1px;
+    background-color: rgb(230, 230, 230);
+    color: 202020;
+    width: 300px;
+    height: 330px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; 
+}
+
+.cards>h1 {
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cards>p {
+     font-size: 17px;
+    padding: 20px 20px;
+    padding-bottom: 15px;
+}
+
+.btns {
+    font-size: 19px;
+    padding: 10px 50px;
+    border: 10px;
+    background-color: #202020;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.5s background;
+    cursor: pointer;
+    text-align: center;
+}
+
+.divisoes {
+    padding-top: 10px;
+}
+
