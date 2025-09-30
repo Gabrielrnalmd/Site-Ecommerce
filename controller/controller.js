@@ -67,7 +67,7 @@ $(document).ready(function () {
     ];
     products.forEach(prod => {
         const cardHTML = `
-            <div id="${prod.id}"  class="card card">
+            <div id="${prod.id}"  class="card">
                 <img src="${prod.img}" alt="${prod.title}">
                 <h1>${prod.title} <br> ${prod.price}</h1>
                 <p>${prod.desc}</p>
